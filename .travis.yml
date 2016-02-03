@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode7.2
+
+install:
+- gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
+script:
+- xcodebuild test -sdk iphonesimulator -scheme ToDoListUITests -destination "OS=9.2,name=iPhone 6" | xcpretty -c && exit ${PIPESTATUS[0]}
