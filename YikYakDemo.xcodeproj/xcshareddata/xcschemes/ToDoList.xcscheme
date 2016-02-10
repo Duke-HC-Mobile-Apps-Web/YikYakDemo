@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BB32B11C600A3F0076D9AB"
-               BuildableName = "ToDoList.app"
-               BlueprintName = "ToDoList"
-               ReferencedContainer = "container:ToDoList.xcodeproj">
+               BuildableName = "YikYakDemo.app"
+               BlueprintName = "YikYakDemo"
+               ReferencedContainer = "container:YikYakDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BB32C51C600A3F0076D9AB"
-               BuildableName = "ToDoListTests.xctest"
-               BlueprintName = "ToDoListTests"
-               ReferencedContainer = "container:ToDoList.xcodeproj">
+               BuildableName = "YikYakDemo.xctest"
+               BlueprintName = "YikYakDemoTests"
+               ReferencedContainer = "container:YikYakDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "72BB32D01C600A3F0076D9AB"
-               BuildableName = "ToDoListUITests.xctest"
-               BlueprintName = "ToDoListUITests"
-               ReferencedContainer = "container:ToDoList.xcodeproj">
+               BuildableName = "YikYakDemo.xctest"
+               BlueprintName = "YikYakDemoUITests"
+               ReferencedContainer = "container:YikYakDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BB32B11C600A3F0076D9AB"
-            BuildableName = "ToDoList.app"
-            BlueprintName = "ToDoList"
-            ReferencedContainer = "container:ToDoList.xcodeproj">
+            BuildableName = "YikYakDemo.app"
+            BlueprintName = "YikYakDemo"
+            ReferencedContainer = "container:YikYakDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BB32B11C600A3F0076D9AB"
-            BuildableName = "ToDoList.app"
-            BlueprintName = "ToDoList"
-            ReferencedContainer = "container:ToDoList.xcodeproj">
+            BuildableName = "YikYakDemo.app"
+            BlueprintName = "YikYakDemo"
+            ReferencedContainer = "container:YikYakDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "72BB32B11C600A3F0076D9AB"
-            BuildableName = "ToDoList.app"
-            BlueprintName = "ToDoList"
-            ReferencedContainer = "container:ToDoList.xcodeproj">
+            BuildableName = "YikYakDemo.app"
+            BlueprintName = "YikYakDemo"
+            ReferencedContainer = "container:YikYakDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -39,16 +39,16 @@
 		720F67061C6029D70050A326 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ComposeViewController.swift; path = ../ComposeViewController.swift; sourceTree = "<group>"; };
 		720F67421C602DE20050A326 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		720F67441C603AFE0050A326 /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
-		72BB32B21C600A3F0076D9AB /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB32B21C600A3F0076D9AB /* YikYakDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YikYakDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB32B51C600A3F0076D9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72BB32BA1C600A3F0076D9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72BB32BC1C600A3F0076D9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BB32BF1C600A3F0076D9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BB32C11C600A3F0076D9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72BB32C61C600A3F0076D9AB /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB32C61C600A3F0076D9AB /* YikYakDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikYakDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB32CA1C600A3F0076D9AB /* ToDoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTests.swift; sourceTree = "<group>"; };
 		72BB32CC1C600A3F0076D9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		72BB32D11C600A3F0076D9AB /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BB32D11C600A3F0076D9AB /* YikYakDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YikYakDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BB32D51C600A3F0076D9AB /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		72BB32D71C600A3F0076D9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,9 +91,9 @@
 		72BB32B31C600A3F0076D9AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				72BB32B21C600A3F0076D9AB /* ToDoList.app */,
-				72BB32C61C600A3F0076D9AB /* ToDoListTests.xctest */,
-				72BB32D11C600A3F0076D9AB /* ToDoListUITests.xctest */,
+				72BB32B21C600A3F0076D9AB /* YikYakDemo.app */,
+				72BB32C61C600A3F0076D9AB /* YikYakDemo.xctest */,
+				72BB32D11C600A3F0076D9AB /* YikYakDemo.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		72BB32B11C600A3F0076D9AB /* ToDoList */ = {
+		72BB32B11C600A3F0076D9AB /* YikYakDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72BB32DA1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoList" */;
+			buildConfigurationList = 72BB32DA1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemo" */;
 			buildPhases = (
 				72BB32AE1C600A3F0076D9AB /* Sources */,
 				72BB32AF1C600A3F0076D9AB /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = ToDoList;
+			name = YikYakDemo;
 			productName = ToDoList;
-			productReference = 72BB32B21C600A3F0076D9AB /* ToDoList.app */;
+			productReference = 72BB32B21C600A3F0076D9AB /* YikYakDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		72BB32C51C600A3F0076D9AB /* ToDoListTests */ = {
+		72BB32C51C600A3F0076D9AB /* YikYakDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72BB32DD1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoListTests" */;
+			buildConfigurationList = 72BB32DD1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemoTests" */;
 			buildPhases = (
 				72BB32C21C600A3F0076D9AB /* Sources */,
 				72BB32C31C600A3F0076D9AB /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				72BB32C81C600A3F0076D9AB /* PBXTargetDependency */,
 			);
-			name = ToDoListTests;
+			name = YikYakDemoTests;
 			productName = ToDoListTests;
-			productReference = 72BB32C61C600A3F0076D9AB /* ToDoListTests.xctest */;
+			productReference = 72BB32C61C600A3F0076D9AB /* YikYakDemo.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		72BB32D01C600A3F0076D9AB /* ToDoListUITests */ = {
+		72BB32D01C600A3F0076D9AB /* YikYakDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 72BB32E01C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoListUITests" */;
+			buildConfigurationList = 72BB32E01C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemoUITests" */;
 			buildPhases = (
 				72BB32CD1C600A3F0076D9AB /* Sources */,
 				72BB32CE1C600A3F0076D9AB /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				72BB32D31C600A3F0076D9AB /* PBXTargetDependency */,
 			);
-			name = ToDoListUITests;
+			name = YikYakDemoUITests;
 			productName = ToDoListUITests;
-			productReference = 72BB32D11C600A3F0076D9AB /* ToDoListUITests.xctest */;
+			productReference = 72BB32D11C600A3F0076D9AB /* YikYakDemo.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 72BB32AD1C600A3F0076D9AB /* Build configuration list for PBXProject "ToDoList" */;
+			buildConfigurationList = 72BB32AD1C600A3F0076D9AB /* Build configuration list for PBXProject "YikYakDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				72BB32B11C600A3F0076D9AB /* ToDoList */,
-				72BB32C51C600A3F0076D9AB /* ToDoListTests */,
-				72BB32D01C600A3F0076D9AB /* ToDoListUITests */,
+				72BB32B11C600A3F0076D9AB /* YikYakDemo */,
+				72BB32C51C600A3F0076D9AB /* YikYakDemoTests */,
+				72BB32D01C600A3F0076D9AB /* YikYakDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		72BB32C81C600A3F0076D9AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72BB32B11C600A3F0076D9AB /* ToDoList */;
+			target = 72BB32B11C600A3F0076D9AB /* YikYakDemo */;
 			targetProxy = 72BB32C71C600A3F0076D9AB /* PBXContainerItemProxy */;
 		};
 		72BB32D31C600A3F0076D9AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 72BB32B11C600A3F0076D9AB /* ToDoList */;
+			target = 72BB32B11C600A3F0076D9AB /* YikYakDemo */;
 			targetProxy = 72BB32D21C600A3F0076D9AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -410,7 +410,7 @@
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YikYakDemo;
 			};
 			name = Debug;
 		};
@@ -421,7 +421,7 @@
 				INFOPLIST_FILE = ToDoList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YikYakDemo;
 			};
 			name = Release;
 		};
@@ -432,8 +432,8 @@
 				INFOPLIST_FILE = ToDoListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoListTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+				PRODUCT_NAME = YikYakDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikYakDemo.app/YikYakDemo";
 			};
 			name = Debug;
 		};
@@ -444,8 +444,8 @@
 				INFOPLIST_FILE = ToDoListTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoListTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+				PRODUCT_NAME = YikYakDemo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YikYakDemo.app/YikYakDemo";
 			};
 			name = Release;
 		};
@@ -455,7 +455,7 @@
 				INFOPLIST_FILE = ToDoListUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YikYakDemo;
 				TEST_TARGET_NAME = ToDoList;
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +467,7 @@
 				INFOPLIST_FILE = ToDoListUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davisgossage.ToDoListUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YikYakDemo;
 				TEST_TARGET_NAME = ToDoList;
 				USES_XCTRUNNER = YES;
 			};
@@ -476,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		72BB32AD1C600A3F0076D9AB /* Build configuration list for PBXProject "ToDoList" */ = {
+		72BB32AD1C600A3F0076D9AB /* Build configuration list for PBXProject "YikYakDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BB32D81C600A3F0076D9AB /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72BB32DA1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
+		72BB32DA1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BB32DB1C600A3F0076D9AB /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72BB32DD1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
+		72BB32DD1C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BB32DE1C600A3F0076D9AB /* Debug */,
@@ -503,7 +503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		72BB32E01C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "ToDoListUITests" */ = {
+		72BB32E01C600A3F0076D9AB /* Build configuration list for PBXNativeTarget "YikYakDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				72BB32E11C600A3F0076D9AB /* Debug */,
